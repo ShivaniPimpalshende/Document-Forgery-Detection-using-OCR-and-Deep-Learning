@@ -14,7 +14,7 @@ class DetectionHistory(models.Model):
     translated_text = models.TextField(blank=True, null=True)
     probabilities = models.JSONField(default=dict)
     timestamp = models.DateTimeField(auto_now_add=True)
-    # In your models.py
+ 
     heatmap_path = models.CharField(max_length=500, blank=True, null=True)
 
     
