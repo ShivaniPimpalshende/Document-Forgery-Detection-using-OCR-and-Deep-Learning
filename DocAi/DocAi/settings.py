@@ -80,7 +80,7 @@ WSGI_APPLICATION = 'DocAi.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'NAME': BASE_DIR / 'my_db.sqlite3',
     }
 }
 
